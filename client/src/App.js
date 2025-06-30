@@ -41,7 +41,7 @@ function App() {
       }
     };
 
-    const response = await fetch("https://studynand18.gemini-backend.repl.co/gemini", options);
+    const response = await fetch("https://nand.gemini-backend.repl.co/gemini", options);
 
     if (!response.ok) {
       throw new Error("Server error");
